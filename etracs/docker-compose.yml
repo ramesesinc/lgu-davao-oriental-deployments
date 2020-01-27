@@ -32,8 +32,8 @@ services:
       - "85:80"
 
     volumes:
-      - ../downloads/conf.d:/etc/nginx/conf.d
-      - ..:/resources
+      - ../download/conf.d:/etc/nginx/conf.d
+      - ../download/resources:/resources
 
 
   etracs25-server:
