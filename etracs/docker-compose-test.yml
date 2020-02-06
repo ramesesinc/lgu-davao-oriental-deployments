@@ -1,0 +1,12 @@
+version: "3"
+
+services:
+  
+  download-server:
+    volumes:
+      - ../_custom/etracs-updates.xml:/resources/downloads/modules/updates.xml
+
+
+  etracs25-server:
+#    volumes:
+#      - ../_custom/adapters/eor:/apps/etracs25/adapters/eor
