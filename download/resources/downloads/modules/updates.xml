@@ -55,6 +55,8 @@ entity.app.context=etracs25
 	<module file="etracs/rameses-gov-etracs-signatory-template.jar" version="2.55"/>
 	<module file="etracs/rameses-gov-etracs-sre-report.jar" version="2.55"/>
 	<module file="etracs/rameses-gov-etracs-tools.jar" version="2.55"/>	
+	<module file="etracs/rameses-gov-lgu.jar" version="2.55"/>
+	<module file="etracs/rameses-gov-lgu-treasury.jar" version="2.55"/>
 
 	<!-- epayment -->
 	<module file="epayment/rameses-gov-epayment.jar" version="2.55"/>
@@ -63,10 +65,6 @@ entity.app.context=etracs25
 	<!-- entity -->
 	<module file="entity/rameses-gov-etracs-entity.jar" version="2.55"/>
 
-	<!-- lgu -->
-	<module file="lgu/rameses-gov-lgu.jar" version="2.55"/>
-	<module file="lgu/rameses-gov-lgu-treasury.jar" version="2.55"/>
-
 	<!-- treasury -->
 	<module file="treasury/rameses-treasury-common.jar" version="2.55"/>
 	<module file="treasury/rameses-gov-depositslip.jar" version="2.55"/>
@@ -74,19 +72,14 @@ entity.app.context=etracs25
 	<module file="treasury/rameses-gov-treasury-report.jar" version="2.55"/>
 	<module file="treasury/rameses-gov-treasury-tool.jar" version="2.55"/>
 
-	<!-- bpls -->
-	<module file="bpls/rameses-gov-etracs-bpls.jar" version="2.55"/>
-	<module file="bpls/rameses-gov-etracs-bpls-ceo.jar" version="2.55"/>
-	<module file="bpls/rameses-gov-etracs-bpls-reports.jar" version="2.55"/>
-
 	<!-- rptis -->
 	<module file="rptis/rameses-gov-etracs-rptis-landtax.jar" version="2.55"/>
 	<module file="rptis/rameses-gov-etracs-rptis-landtax-report.jar" version="2.55"/>
 	<module file="rptis/rameses-gov-etracs-rptis.jar" version="2.55"/>
 	<module file="rptis/rameses-gov-etracs-rptis-report.jar" version="2.55"/>
 	<module file="rptis/rameses-gov-etracs-rptis-transmittal.jar" version="2.55"/>
-	<module file="rptis/rameses-gov-etracs-rptis-province.jar" version="2.55"/>
 	<module file="rptis/rameses-gov-etracs-rptis-landtax-province.jar" version="2.55"/>
+	<module file="rptis/rameses-gov-etracs-rptis-province.jar" version="2.55"/>
 	
 	<!-- queueing -->	
 	<module file="queue/rameses-queueing.jar" version="2.55"/> 
