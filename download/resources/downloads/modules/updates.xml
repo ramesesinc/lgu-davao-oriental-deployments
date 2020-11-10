@@ -19,7 +19,7 @@ entity.app.context=etracs25
 </env>
 <modules> 
 	<!-- custom -->
-	<module file="custom/gov-lgu-davor-main.jar" version="1.00"/>
+	<module file="custom/gov-lgu-davor-main.jar" version="1.01"/>
 
 	<!-- core -->
 	<module file="core/osiris2-client-themes.jar" version="2.55"/>
