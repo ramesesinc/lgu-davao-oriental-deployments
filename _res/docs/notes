@@ -1,0 +1,16 @@
+
+[GitHub]
+git clone https://github.com/ramesesinc/lgu-davao-oriental-deployments.git
+
+
+[DockerHub]
+image: nginx:latest
+image: ramesesinc/node-download-server:0.0.2
+image: ramesesinc/notification-server:1.0
+image: ramesesinc/etracs-web:2.5.01.01
+image: ramesesinc/gdx-proxy-server:v001
+image: ramesesinc/gdx-client:1.03.01
+image: ramesesinc/queue-server:255.02.002
+image: ramesesinc/mail-server:latest
+image: ramesesinc/local-epayment-server:2.5.01.02.01
+image: ramesesinc/etracs-server-province:2.5.02.05.01
