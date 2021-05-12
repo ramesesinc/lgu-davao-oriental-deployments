@@ -29,4 +29,5 @@ services:
       - ../../_custom/module-server:/apps/etracs25/modules/ext/zzz-lgu-custom-module
 
       - ./dev-modules/rptis/rameses-gov-etracs-rptis-landtax-report-services.jar:/services/modules/rptis/rameses-gov-etracs-rptis-landtax-report-services.jar
+      - ./dev-modules/rptis/rameses-gov-etracs-rptis-province-landtax-services.jar:/services/modules/rptis/rameses-gov-etracs-rptis-province-landtax-services.jar
       
